@@ -1,8 +1,8 @@
 {
-  "name": "gr8r-studio",
+  "name": "capstone-dashboard",
   "version": "1.0.0",
   "private": true,
-  "description": "Gr8r Studio: a calm, structured project management workspace.",
+  "description": "Capstone Dashboard: project and team management by The Capstone.",
   "type": "module",
   "scripts": {
     "dev": "vite",

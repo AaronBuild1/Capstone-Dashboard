@@ -34,7 +34,7 @@ export const PSTAT = {
   complete: { name: 'Completed', c: 'var(--green)' },
 };
 export const PCOLORS = {
-  indigo: '#5A67D8',
+  indigo: '#B8490A',
   blue: '#3B82C4',
   violet: '#8662C9',
   teal: '#23918A',
@@ -63,7 +63,7 @@ export const PICONS = [
 ];
 export const ROLES = ['Owner', 'Admin', 'Member', 'Guest'];
 export const TEAMS_SEED = [
-  { id: 'design', name: 'Design', icon: 'palette', c: '#8662C9', desc: 'Product design, brand, and research' },
+  { id: 'design', name: 'Design', icon: 'palette', c: '#B8490A', desc: 'Product design, brand, and research' },
   { id: 'eng', name: 'Engineering', icon: 'code', c: '#3B82C4', desc: 'Web, mobile, and platform engineering' },
   { id: 'mkt', name: 'Marketing', icon: 'megaphone', c: '#C54B78', desc: 'Campaigns, content, and growth' },
   { id: 'product', name: 'Product', icon: 'target', c: '#C48A1E', desc: 'Roadmap, planning, and QA' },

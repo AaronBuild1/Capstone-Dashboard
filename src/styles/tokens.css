@@ -1,31 +1,31 @@
 /* ============================================================
-   QUIRE — DESIGN TOKENS
+   CAPSTONE — DESIGN TOKENS
    Light palette on bare :root; dark redefined (not inverted).
    ============================================================ */
 :root {
   /* surfaces */
-  --bg: #fbfaf8;
-  --bg-side: #f4f3f0;
-  --surface: #ffffff;
-  --surface-2: #f6f5f2;
-  --surface-3: #eeede9;
-  --sunken: #f7f6f3;
+  --bg: #F2EDE6;
+  --bg-side: #E9E1D7;
+  --surface: #FBF8F3;
+  --surface-2: #F8F4EE;
+  --surface-3: #E7DED2;
+  --sunken: #EEE6DC;
   --overlay: rgba(24, 22, 19, 0.28);
   /* lines */
-  --border: #e9e7e2;
-  --border-strong: #dad7d0;
-  --divider: #f0eeea;
+  --border: #DED4C8;
+  --border-strong: #CFC3B5;
+  --divider: #E8E0D6;
   /* text */
-  --text: #1d1c1a;
-  --text-2: #57544e;
-  --text-3: #6b6760;
-  --text-4: #8c8880;
-  --text-inv: #ffffff;
+  --text: #0D0C0B;
+  --text-2: #51483F;
+  --text-3: #71675D;
+  --text-4: #93877B;
+  --text-inv: #FBF8F3;
   /* accent (swappable) */
-  --acc-l: #4b5bd6;
-  --acc-d: #8e9af3;
+  --acc-l: #B8490A;
+  --acc-d: #E58A52;
   --accent: var(--acc-l);
-  --on-accent: #ffffff;
+  --on-accent: #FBF8F3;
   --accent-soft: color-mix(in srgb, var(--accent) 10%, transparent);
   --accent-line: color-mix(in srgb, var(--accent) 38%, transparent);
   /* semantic */
@@ -99,23 +99,23 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #1a1a19;
-    --bg-side: #151514;
-    --surface: #1d1d1c;
-    --surface-2: #252524;
-    --surface-3: #2d2d2b;
-    --sunken: #181817;
+    --bg: #0D0C0B;
+    --bg-side: #14100D;
+    --surface: #191512;
+    --surface-2: #241D18;
+    --surface-3: #302720;
+    --sunken: #110E0C;
     --overlay: rgba(0, 0, 0, 0.55);
-    --border: #2c2b29;
-    --border-strong: #3a3936;
+    --border: #3A3028;
+    --border-strong: #514338;
     --divider: #252523;
-    --text: #eceae5;
-    --text-2: #b5b2ab;
-    --text-3: #9a968f;
-    --text-4: #6f6c66;
-    --text-inv: #151514;
+    --text: #F2EDE6;
+    --text-2: #C8BCAF;
+    --text-3: #A99D91;
+    --text-4: #85796D;
+    --text-inv: #14100D;
     --accent: var(--acc-d);
-    --on-accent: #12131c;
+    --on-accent: #0D0C0B;
     --green: #5cba86;
     --amber: #d8a443;
     --red: #e57d70;
@@ -126,7 +126,7 @@
     --orange: #e3925f;
     --gray: #8f8b84;
     --pc-mix: 72%;
-    --st-backlog: #6f6c66;
+    --st-backlog: #85796D;
     --st-todo: #a6a39c;
     --st-progress: #d8a443;
     --st-review: #a98deb;
@@ -139,23 +139,23 @@
   }
 }
 :root[data-theme='dark'] {
-  --bg: #1a1a19;
-  --bg-side: #151514;
-  --surface: #1d1d1c;
-  --surface-2: #252524;
-  --surface-3: #2d2d2b;
-  --sunken: #181817;
+  --bg: #0D0C0B;
+  --bg-side: #14100D;
+  --surface: #191512;
+  --surface-2: #241D18;
+  --surface-3: #302720;
+  --sunken: #110E0C;
   --overlay: rgba(0, 0, 0, 0.55);
-  --border: #2c2b29;
-  --border-strong: #3a3936;
+  --border: #3A3028;
+  --border-strong: #514338;
   --divider: #252523;
-  --text: #eceae5;
-  --text-2: #b5b2ab;
-  --text-3: #9a968f;
-  --text-4: #6f6c66;
-  --text-inv: #151514;
+  --text: #F2EDE6;
+  --text-2: #C8BCAF;
+  --text-3: #A99D91;
+  --text-4: #85796D;
+  --text-inv: #14100D;
   --accent: var(--acc-d);
-  --on-accent: #12131c;
+  --on-accent: #0D0C0B;
   --green: #5cba86;
   --amber: #d8a443;
   --red: #e57d70;
@@ -166,7 +166,7 @@
   --orange: #e3925f;
   --gray: #8f8b84;
   --pc-mix: 72%;
-  --st-backlog: #6f6c66;
+  --st-backlog: #85796D;
   --st-todo: #a6a39c;
   --st-progress: #d8a443;
   --st-review: #a98deb;
@@ -178,7 +178,7 @@
   color-scheme: dark;
 }
 /* accent variants */
-:root[data-accent='blue'] {
+:root[data-accent='orange'] {\n  --acc-l: #B8490A;\n  --acc-d: #E58A52;\n}\n:root[data-accent='blue'] {
   --acc-l: #2f6cd4;
   --acc-d: #74a7f0;
 }

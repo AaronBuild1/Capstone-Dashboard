@@ -1,5 +1,5 @@
 /* =====================================================================
-   QUIRE — core: utils, icons, seed data, store, render loop, events
+   CAPSTONE — core: utils, icons, seed data, store, render loop, events
    ===================================================================== */
 // Web fonts load without blocking first paint (the link starts as media=print).
 document.querySelectorAll('link[data-font]').forEach(l => {

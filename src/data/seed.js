@@ -498,7 +498,7 @@ export function seed() {
   const tmp = tk('t3');
   tmp.updated = minsAgo(38);
   return {
-    ws: { name: 'Capstone Dashboard', url: 'gr8rstudio', c: '#B8490A', brand: true },
+    ws: { name: 'Capstone Dashboard', url: 'capstone', c: '#B8490A', brand: true },
     workspaces: [
       { id: 'w1', name: 'Capstone Dashboard', c: '#B8490A', plan: 'Team', brand: true },
       { id: 'w2', name: 'Personal', c: '#3D8E5F', plan: 'Free' },

@@ -4,33 +4,33 @@
    ============================================================ */
 :root {
   /* surfaces */
-  --bg: #F2EDE6;
-  --bg-side: #E9E1D7;
-  --surface: #FBF8F3;
-  --surface-2: #F8F4EE;
-  --surface-3: #E7DED2;
-  --sunken: #EEE6DC;
+  --bg: #f2ede6;
+  --bg-side: #e9e1d7;
+  --surface: #fbf8f3;
+  --surface-2: #f8f4ee;
+  --surface-3: #e7ded2;
+  --sunken: #eee6dc;
   --overlay: rgba(24, 22, 19, 0.28);
   /* lines */
-  --border: #DED4C8;
-  --border-strong: #CFC3B5;
-  --divider: #E8E0D6;
+  --border: #ded4c8;
+  --border-strong: #cfc3b5;
+  --divider: #e8e0d6;
   /* text */
-  --text: #0D0C0B;
-  --text-2: #51483F;
-  --text-3: #71675D;
-  --text-4: #93877B;
-  --text-inv: #FBF8F3;
+  --text: #0d0c0b;
+  --text-2: #51483f;
+  --text-3: #71675d;
+  --text-4: #93877b;
+  --text-inv: #fbf8f3;
   /* accent (swappable) */
-  --acc-l: #B8490A;
-  --acc-d: #E58A52;
+  --acc-l: #b8490a;
+  --acc-d: #e58a52;
   --accent: var(--acc-l);
-  --on-accent: #FBF8F3;
+  --on-accent: #fbf8f3;
   --accent-soft: color-mix(in srgb, var(--accent) 10%, transparent);
   --accent-line: color-mix(in srgb, var(--accent) 38%, transparent);
   /* semantic */
   --green: #25754b;
-  --amber: #9B762B;
+  --amber: #9b762b;
   --red: #b23c30;
   --blue: #3570c4;
   --violet: #7652c2;
@@ -44,7 +44,7 @@
   /* status */
   --st-backlog: #a29e96;
   --st-todo: #7c7870;
-  --st-progress: #C9A84C;
+  --st-progress: #c9a84c;
   --st-review: #7652c2;
   --st-done: #2e8456;
   /* elevation */
@@ -99,25 +99,25 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #0D0C0B;
-    --bg-side: #14100D;
+    --bg: #0d0c0b;
+    --bg-side: #14100d;
     --surface: #191512;
-    --surface-2: #241D18;
+    --surface-2: #241d18;
     --surface-3: #302720;
-    --sunken: #110E0C;
+    --sunken: #110e0c;
     --overlay: rgba(0, 0, 0, 0.55);
-    --border: #3A3028;
+    --border: #3a3028;
     --border-strong: #514338;
     --divider: #252523;
-    --text: #F2EDE6;
-    --text-2: #C8BCAF;
-    --text-3: #A99D91;
-    --text-4: #85796D;
-    --text-inv: #14100D;
+    --text: #f2ede6;
+    --text-2: #c8bcaf;
+    --text-3: #a99d91;
+    --text-4: #85796d;
+    --text-inv: #14100d;
     --accent: var(--acc-d);
-    --on-accent: #0D0C0B;
+    --on-accent: #0d0c0b;
     --green: #5cba86;
-    --amber: #D9B76D;
+    --amber: #d9b76d;
     --red: #e57d70;
     --blue: #72a5ea;
     --violet: #a98deb;
@@ -126,9 +126,9 @@
     --orange: #e3925f;
     --gray: #8f8b84;
     --pc-mix: 72%;
-    --st-backlog: #85796D;
+    --st-backlog: #85796d;
     --st-todo: #a6a39c;
-    --st-progress: #D9B76D;
+    --st-progress: #d9b76d;
     --st-review: #a98deb;
     --st-done: #5cba86;
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -139,25 +139,25 @@
   }
 }
 :root[data-theme='dark'] {
-  --bg: #0D0C0B;
-  --bg-side: #14100D;
+  --bg: #0d0c0b;
+  --bg-side: #14100d;
   --surface: #191512;
-  --surface-2: #241D18;
+  --surface-2: #241d18;
   --surface-3: #302720;
-  --sunken: #110E0C;
+  --sunken: #110e0c;
   --overlay: rgba(0, 0, 0, 0.55);
-  --border: #3A3028;
+  --border: #3a3028;
   --border-strong: #514338;
   --divider: #252523;
-  --text: #F2EDE6;
-  --text-2: #C8BCAF;
-  --text-3: #A99D91;
-  --text-4: #85796D;
-  --text-inv: #14100D;
+  --text: #f2ede6;
+  --text-2: #c8bcaf;
+  --text-3: #a99d91;
+  --text-4: #85796d;
+  --text-inv: #14100d;
   --accent: var(--acc-d);
-  --on-accent: #0D0C0B;
+  --on-accent: #0d0c0b;
   --green: #5cba86;
-  --amber: #D9B76D;
+  --amber: #d9b76d;
   --red: #e57d70;
   --blue: #72a5ea;
   --violet: #a98deb;
@@ -166,9 +166,9 @@
   --orange: #e3925f;
   --gray: #8f8b84;
   --pc-mix: 72%;
-  --st-backlog: #85796D;
+  --st-backlog: #85796d;
   --st-todo: #a6a39c;
-  --st-progress: #D9B76D;
+  --st-progress: #d9b76d;
   --st-review: #a98deb;
   --st-done: #5cba86;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -179,8 +179,8 @@
 }
 /* accent variants */
 :root[data-accent='orange'] {
-  --acc-l: #B8490A;
-  --acc-d: #E58A52;
+  --acc-l: #b8490a;
+  --acc-d: #e58a52;
 }
 :root[data-accent='blue'] {
   --acc-l: #2f6cd4;

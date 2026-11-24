@@ -6,8 +6,6 @@ board / list / table / calendar / timeline / files views, members, teams, activi
 Built with plain JavaScript ES modules and CSS, bundled by [Vite](https://vite.dev). There is no
 UI framework and no runtime dependency.
 
-![Capstone Dashboard home dashboard](docs/preview.png)
-
 ## Getting started
 
 Requires Node.js 18 or newer (`.nvmrc` pins 22).

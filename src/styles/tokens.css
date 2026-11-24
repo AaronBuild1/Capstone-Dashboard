@@ -30,7 +30,7 @@
   --accent-line: color-mix(in srgb, var(--accent) 38%, transparent);
   /* semantic */
   --green: #25754b;
-  --amber: #8f5e0e;
+  --amber: #9B762B;
   --red: #b23c30;
   --blue: #3570c4;
   --violet: #7652c2;
@@ -44,7 +44,7 @@
   /* status */
   --st-backlog: #a29e96;
   --st-todo: #7c7870;
-  --st-progress: #c88a14;
+  --st-progress: #C9A84C;
   --st-review: #7652c2;
   --st-done: #2e8456;
   /* elevation */
@@ -117,7 +117,7 @@
     --accent: var(--acc-d);
     --on-accent: #0D0C0B;
     --green: #5cba86;
-    --amber: #d8a443;
+    --amber: #D9B76D;
     --red: #e57d70;
     --blue: #72a5ea;
     --violet: #a98deb;
@@ -128,7 +128,7 @@
     --pc-mix: 72%;
     --st-backlog: #85796D;
     --st-todo: #a6a39c;
-    --st-progress: #d8a443;
+    --st-progress: #D9B76D;
     --st-review: #a98deb;
     --st-done: #5cba86;
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -178,7 +178,11 @@
   color-scheme: dark;
 }
 /* accent variants */
-:root[data-accent='orange'] {\n  --acc-l: #B8490A;\n  --acc-d: #E58A52;\n}\n:root[data-accent='blue'] {
+:root[data-accent='orange'] {
+  --acc-l: #B8490A;
+  --acc-d: #E58A52;
+}
+:root[data-accent='blue'] {
   --acc-l: #2f6cd4;
   --acc-d: #74a7f0;
 }

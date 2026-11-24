@@ -157,7 +157,7 @@
   --accent: var(--acc-d);
   --on-accent: #0D0C0B;
   --green: #5cba86;
-  --amber: #d8a443;
+  --amber: #D9B76D;
   --red: #e57d70;
   --blue: #72a5ea;
   --violet: #a98deb;
@@ -168,7 +168,7 @@
   --pc-mix: 72%;
   --st-backlog: #85796D;
   --st-todo: #a6a39c;
-  --st-progress: #d8a443;
+  --st-progress: #D9B76D;
   --st-review: #a98deb;
   --st-done: #5cba86;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
